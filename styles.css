@@ -1,0 +1,29 @@
+body{
+  background-color: rgb(15, 95, 91);
+}
+
+.image2000{
+  display: none;
+  position: top;
+  padding: auto;
+  padding-top: 52px;
+  background-image: 89px;
+  width: 300px;
+ 
+}
+
+.imgnovas{
+  display: flex;
+  
+}
+
+#btn02{
+  display: none;
+}
+
+#Titulo{
+  height: 100%;
+  color: yellow
+  
+}
+

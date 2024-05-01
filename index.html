@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Sites dos Anos 90 e 2000</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+   <div id="Titulo">
+    <p>Sites dos Anos 90 e 2000.</p>
+  </div>
+
+ <div>
+    <input id="b" type="button" value="Ano1990" onclick="MudaImg2000()" ondblclick="window.location.reload()"/>
+ </div>
+
+
+  <img class="image1990" src="Chapolin Colorado.jpg">
+  <img class="image1990" src="Chaves.webp">
+  <img class="image1990" src="ChicoAnisio.jpg">
+
+<div class="imgnovas">
+  <img class="image2000" src="osnormais.jpg">
+  <img class="image2000" src="panico.jpg">
+  <img class="image2000" src="saidebaixo.jpg">
+  <img class="image2000" src="TV-Pirata-Foto-Arquivo-TV-Globo-768x425.webp">
+  <img class="image2000" src="VaiquCola.jpg"
+</div>
+<script>
+
+function MudaImg2000(){
+  var x = document.getElementsByClassName("image1990")
+  var i
+   for (i=0; i<x.length; i++){
+    x[i].style.display= "none";
+  }
+var j = document.getElementsByClassName("image2000")
+var q 
+  for(q=0; q<j.length; q++){
+    j[q].style.display="block"
+  }
+  document.getElementById("b").setAttribute('value', 'Ano2000')
+}
+</script>
+
+</body>
+
+</html>
